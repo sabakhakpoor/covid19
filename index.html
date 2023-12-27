@@ -29,9 +29,6 @@
                     <li>
                         <a class="menu-link" href="#">center</a>
                     </li>
-                    <!-- <li>
-                        <a class="menu-link" href="#">home</a>
-                    </li> -->
                     <li>
                         <a class="menu-link" href="#">symptoms</a>
                     </li>
@@ -62,6 +59,190 @@
             </section>
         </div>
     </header>
+    <div class="container">
+        <section class="logo-line">
+            <div class="second-logo"><img src="images/logo2.png" alt="second-logo"></div>
+            <div class="logo-line-text-one">
+                <h4>Symptoms</h4>
+                <h6 class="logo-line-text">Amet Minim mollit non</h6>
+            </div>
+            <div class="second-logo-two"><img src="images/logo3 (2).png" alt="second-logo"></div>
+            <div class="logo-line-text-two">
+                <h4>Treatment</h4>
+                <h6 class="logo-line-text">Amet Minim mollit non</h6>
+            </div>
+            <div class="second-logo-three"><img src="images/logo4 (2).png" alt="second-logo"></div>
+            <div class="logo-line-text-three">
+                <h4>Security</h4>
+                <h6 class="logo-line-text">Amet Minim mollit non</h6>
+            </div>
+            <div class="second-logo-four"><img src="images/logo5.png" alt="second-logo"></div>
+            <div class="logo-line-text-three">
+                <h4>Protection</h4>
+                <h6 class="logo-line-text">Amet Minim mollit non</h6>
+            </div>
+        </section>
+    </div>
+    <div class="container">
+        <section class="person-comments">
+            <div class="person-comments-left"><img src="images/image2.png" alt="person-comments-image"></div>
+            <div class="person-comments-right">
+                <h2 class="person-comments-title">What is Corona Virus?</h2>
+                <ul class="person-comments-list">
+                    <li class="person-logo">
+                        <img src="images/yes logo.png" alt="person-logo" class="person-logo2">
+                        <span>The coronavirus can be spread from person to <br> person. It is diagnosed with a test.</span>
+                    </li>
+                    <li class="person-logo">
+                        <img src="images/yes logo.png" alt="person-logo" class="person-logo3">
+                        <span>COVID-19 can be severe, and has caused <br>millions of deaths around the world as well as <br>
+                            lasting health problems in some
+                            who have <br> survived the illness.</span>
+                    </li>
+                    <li class="person-logo">
+                        <img src="images/yes logo.png" alt="person-logo" class="person-logo4">
+                        <span>The best way to protect yourself is to get <br>vaccinated and boosted when you are
+                            eligible,<br> follow testing guidelines, wear
+                            a mask, wash <br>your hands and practice physical distancing.</span>
+                    </li>
+                </ul>
+                <a href="#" class="person-comments-button">LEARN MORE</a>
+            </div>
+        </section>
+    </div>
+    <div class="container">
+        <div>
+            <h1 class="api-title">.....COVID-19 DATA.....</h1>
+            <form id="myForm">
+                <select name="country" id="country">
+                    <option value="usa">usa</option>
+                    <option value="iran">iran</option>
+                </select>
+            </form>
+            <h1 id="cases"></h1>
+            <h1 id="recovered"></h1>
+            <h1 id="deaths"></h1>
+        </div>
+        <div class="table-responsive">
+            <table class="table">
+                <thead class="table-two">
+                    <tr class="table-row">
+                        <th scope="col">Cases</th>
+                        <th scope="col">Recovered</th>
+                        <th scope="col">Deaths</th>
+                    </tr>
+                </thead>
+                <!-- <div class="d-flex justify-content-center" id="loader">
+                        <div class="spinner-border text-danger" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                    </div> -->
+                <tbody class="bg-gray" id="table-body">
+                    <tr class="table-row-two">
+                        <td>CASES</td>
+                        <td>RECOVERD</td>
+                        <td>DEATHS</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <br>
+        <br>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4">
+                <canvas id="chart" width="400" height="400"></canvas>
+            </div>
+        </div>
+    </div>
+    <hr class="featurette-divider">
+    <div class="container">
+        <h1 class="newsTitle">News</h1>
+        <br>
+        
+        <div class="container row" id="news">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="card">
+                    <img src="static/img/news1.jpg" class="card-img-top" alt="Some Issues Happen!">
+                    <div class="card-body">
+                        <h5 class="card-title">Delaying a COVID ...</h5>
+                        <p class="card-text">Facing a limited vaccine supply, the United Kingdom
+                            embarked on a bold public-health experiment...</p>
+                        <a href="https://www.nytimes.com/live/2021/05/20/world/covid-vaccine-coronavirus-mask"
+                            class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="card">
+                    <img src="static/img/news2.jpg" class="card-img-top" alt="Some Issues Happen!">
+                    <div class="card-body">
+                        <h5 class="card-title">Delaying a COVID ...</h5>
+                        <p class="card-text">Facing a limited vaccine supply, the United Kingdom
+                            embarked on a bold public-health experiment...</p>
+                        <a href="https://www.nytimes.com/live/2021/05/20/world/covid-vaccine-coronavirus-mask"
+                            class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="card">
+                    <img src="static/img/new3.jpg" class="card-img-top" alt="Some Issues Happen!">
+                    <div class="card-body">
+                        <h5 class="card-title">Delaying a COVID ...</h5>
+                        <p class="card-text">Facing a limited vaccine supply, the United Kingdom
+                            embarked on a bold public-health experiment...</p>
+                        <a href="https://www.nytimes.com/live/2021/05/20/world/covid-vaccine-coronavirus-mask"
+                            class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <br>
+     <br>
+     <div class="container">
+        <hr class="second-hr">
+        <footer class="footer">
+            <section>
+                <div class="newsletter">
+                    <h2 class="newsletter-title">News & Articles</h2>
+                    <p class="newsletter-text">Amet minim mollit non deserunt ullamco est sit na coder is medicine</p>
+                    <div class="footer-image">
+                        <div class="firs-tags">
+                            <img src="images/image3.png" alt="doctor-image" class="firs-tags-two-image">
+                            <div class="logos-one">
+                                <img src="images/last-logo.png" alt="" class="footer-first-logo">
+                                <p class="footer-first-text">Admin</p>
+                            </div>
+                            <div class="tags-one">
+                                <img src="images/last-logo.png" alt="" class="footer-last-logo">
+                                <p class="footer-second-text">3 Comments</p>
+                            </div>
+                            <p class="footer-last-text">How to Awareness of Covid19 ??</p>
+                        </div>
+                        <div class="firs-tags-two">
+                            <img src="images/image3.png" alt="doctor-image" class="firs-tags-two-image">
+                            <div class="logos-two">
+                                <img src="images/last-logo.png" alt="" class="footer-first-logo">
+                                <p class="footer-first-text">Admin</p>
+                            </div>
+                            <div class="tags-two">
+                                <img src="images/last-logo.png" alt="" class="footer-last-logo">
+                                <p class="footer-second-text">3 Comments</p>
+                            </div>
+                            <p class="footer-last-text">How to Awareness of Covid19 ??</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+
+     </div>
+
+    
     
 </body>
 <script src="script.js"></script>
